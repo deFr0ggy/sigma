@@ -7,17 +7,17 @@ related:
       type: similar
     - id: 19d65a1c-8540-4140-8062-8eb00db0bba5
       type: similar
-status: experimental
+status: test
 description: Detects calls to WinAPI functions from PowerShell scripts. Attackers can often leverage these APIs to avoid detection based on typical PowerShell function calls. Use this rule as a basis to hunt for interesting scripts.
 references:
     - https://speakerdeck.com/heirhabarov/hunting-for-powershell-abuse
 author: Nikita Nazarov, oscd.community, Nasreddine Bencherchali (Nextron Systems)
-date: 2023/07/21
+date: 2023-07-21
 tags:
     - attack.execution
     - attack.t1059.001
     - attack.t1106
-    - detection.threat_hunting
+    - detection.threat-hunting
 logsource:
     product: windows
     category: ps_script

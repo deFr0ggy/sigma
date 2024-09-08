@@ -1,12 +1,12 @@
 title: Potential Data Exfiltration Activity Via CommandLine Tools
 id: 7d1aaf3d-4304-425c-b7c3-162055e0b3ab
-status: experimental
+status: test
 description: Detects the use of various CLI utilities exfiltrating data via web requests
 references:
     - https://www.sentinelone.com/blog/living-off-windows-defender-lockbit-ransomware-sideloads-cobalt-strike-through-microsoft-security-tool/
 author: Nasreddine Bencherchali (Nextron Systems)
-date: 2022/08/02
-modified: 2023/07/27
+date: 2022-08-02
+modified: 2023-07-27
 tags:
     - attack.execution
     - attack.t1059.001
